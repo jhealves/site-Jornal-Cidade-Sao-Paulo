@@ -4,10 +4,17 @@
     outline: none;
     border: none;
 }
+#wrap{
+    width: 100%;
+    margin: 0px auto;
+}
 a:link 
 { 
 text-decoration:none; 
 } 
+.fix{
+	clear: both;
+}
 header{
     width: 100%;
     height: 50px;
@@ -56,7 +63,7 @@ header{
 .menu a{
     font-size: 2em;
     color: #ffffff;
-    padding: 1.5% 3%;
+    padding: 1.5% 1%;
     text-decoration: none;
 }
 .menu li a:hover{
@@ -88,24 +95,39 @@ header{
 .n-mais-lidas h3{
     text-align: center;
 }
-.cont-m-lidas{
-    width: 92.5%;
-    margin: 0% 4%;
-    float: left;
+.n-mais-lidas{
+    width: 90%;
+    margin: 0 auto;
 }
 .mais-lidas{
-    width: 33.3%;
+    width: 50%;
     float: left;
 }
 .mais-lidas img{
-    width: 90%;
-    padding: 4%;
+    width: 96%;
+    padding: 0 2%;
 }
 .mais-lidas h4, p{
-    padding: 4%;
+    padding: 0 2% 2% 2%;
     font-size: 1em;
     text-align: justify;
     color: #000000;
+}
+.ultimas-n{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.cont-ultimas{
+    width: 50%;
+    float: left;
+}
+.img-ultimas{
+    width: 50%;
+    float: left;
+}
+.img-ultimas img{
+    width: 100%;
 }
 footer{
     display: table;
@@ -118,6 +140,7 @@ footer{
 footer p{
     text-align: center;
     font-size: 13px;
-    display: inline-block;
+    display: table-cell;
     color: gray;
+    vertical-align: middle;
 }
